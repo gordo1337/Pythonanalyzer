@@ -1,4 +1,4 @@
-#GottfridBrandt_goteasso@gmail.com
+
 import sys
 
 """
