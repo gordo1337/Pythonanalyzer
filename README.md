@@ -8,7 +8,7 @@
     \|__| |\___/ /             \|__|   \|__|\|__| \|_______| \|__| \|__|                         
           \|___|/                                                         
 ```
-                                         ```
+                                        
 ``````
 ________   ________    ________   ___            ___    ___  ________   _______    ________     
 |\   __  \ |\   ___  \ |\   __  \ |\  \          |\  \  /  /||\_____  \ |\  ___ \  |\   __  \    
@@ -19,9 +19,11 @@ ________   ________    ________   ___            ___    ___  ________   _______ 
     \|__|\|__| \|__| \|__| \|__|\|__| \|_______||\___/ /         \|_______| \|_______| \|__|\|__|
 
 ```
+```
 This is a python scripts that find statistic / error / notice in a <test.log> file. 
-
+```
 #To run the file correctly 
 1. >>>loganalyzer.py <filename> <action command>
 # Actioncommands in the py file 
 2. Statistics , Error , Notice 
+```
