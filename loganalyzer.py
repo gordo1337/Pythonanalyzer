@@ -23,6 +23,8 @@ except Exception as e:
 # checks if the 2nd input is matching any of the possible action_options
 if(any(sys.argv[2] in option for option in action_options)):
 	print("Selected option:" + str(sys.argv[2]))
+	#pass
+	# Or erase line 25 and set pass for an clean output
 else:
 	print("invalid option: "+str(sys.argv[2]))
 	print("please select one of the possible options: ")
@@ -34,17 +36,17 @@ else:
 print("starting to analyze the file .. ")
 
 if str(sys.argv[2]) == 'statistics':
-    antalNotice = 0
-    antalError = 0
+    Notice = 0
+    Error = 0
 
     for rad in file:
         if "error" in rad:
-            antalError = antalError + 1
+            Error = Error + 1
         else:
-            antalNotice = antalNotice + 1
+            Notice = Notice + 1
 
-    print("antal errors: ", antalError)
-    print("antal notice: ", antalNotice)
+    print("errors: ", Error)
+    print("notice: ", Notice)
 # to execute do loganalyzer.py [file] --> log.test [action] --> statistics
 
 # Date and Message split Error argument loop
