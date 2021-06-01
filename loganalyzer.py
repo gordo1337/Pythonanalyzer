@@ -1,4 +1,4 @@
-
+# Imports System-specific parameters and functions
 import sys
 
 """
@@ -18,7 +18,7 @@ try:
 
 	print("Opened filed: "+filepath)
 except Exception as e:
-	print(e)  # ger error om
+	print(e)  # Gives error if 
 
 # checks if the 2nd input is matching any of the possible action_options
 if(any(sys.argv[2] in option for option in action_options)):
